@@ -1,0 +1,137 @@
+.side_wrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 240px;
+  height: 100vh;
+  background: #e5e5e5;
+
+  .side_hide {
+    display: none;
+  }
+
+  .side_show {
+    padding-top: 20px;
+
+    .side_logo {
+      width: 120px;
+      height: 120px;
+      margin-left: 12%;
+      margin-bottom: 10vh;
+
+      img {
+        width: 100%;
+      }
+    }
+
+    .side_opdstext {
+      width: 80%;
+      margin-left: 12%;
+      color: #ffffff;
+      font-size: 22px;
+      font-weight: lighter;
+
+      span {
+        text-transform: uppercase;
+        font-weight: 400;
+      }
+    }
+    .side_menulist {
+      margin-top: 15vh;
+      color: #707070;
+
+      .side_li:hover {
+        color: #fff;
+        background: #82b66e73;
+      }
+
+      .side_bg {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        height: 52px;
+        padding: 8px;
+        color: #f5f5f5;
+        border-bottom: 1px solid #e5e5e5;
+        background: #83b66e;
+
+        p {
+          display: inline-flex;
+
+          img {
+            width: 45%;
+          }
+        }
+
+        p:nth-child(1) {
+          width: 30%;
+          padding-left: 10px;
+          font-size: 25px;
+        }
+        p:nth-child(2) {
+          width: 70%;
+        }
+      }
+      .side_li {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        height: 52px;
+        padding: 8px;
+        background: #f9f9f9;
+        border-bottom: 1px solid #e5e5e5;
+
+        p {
+          display: inline-flex;
+
+          img {
+            width: 45%;
+          }
+        }
+
+        p:nth-child(1) {
+          width: 30%;
+          padding-left: 10px;
+          font-size: 25px;
+        }
+        p:nth-child(2) {
+          width: 70%;
+        }
+      }
+    }
+  } /* .side_show end */
+  .side_hidebtn {
+    display: flex;
+    justify-content: center;
+
+    width: 100%;
+    border-top: 1px solid #f5f5f5;
+    border-bottom: 1px solid #f5f5f5;
+
+    button {
+      width: 100%;
+      padding: 5px;
+      background: transparent;
+      border-radius: 0;
+
+      svg {
+        color: #83b66e;
+        font-size: 22px;
+      }
+
+      &:hover {
+        width: 100%;
+        background: #82b66e73;
+      }
+    }
+  }
+  .side_hidebtn:hover {
+    cursor: pointer;
+  }
+}
+
+.side_wrap_hide {
+  width: 50px;
+  height: 100vh;
+  background: #e5e5e5;
+}

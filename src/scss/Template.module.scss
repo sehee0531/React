@@ -1,0 +1,12 @@
+.tem_wrap {
+  display: inline-flex;
+  flex-direction: row;
+  width: 100%;
+  background: #e5e5e50e;
+
+  .tem_contents {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+}
