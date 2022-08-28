@@ -18,4 +18,4 @@ response쪽에서 온 헤더로 판단을 함
 response.setHeader("Access-Control-Allow-어쩌고") -> 이 헤더가 있으면 보여줄게하고 java Script가 허용해줌
 
  <></>
-div를 감쌀 수 있는 것이 필요하기 때문
+div를 감쌀 수 있는 것이 필요하기 때문에
