@@ -21,6 +21,8 @@ response.setHeader("Access-Control-Allow-어쩌고") -> 이 헤더가 있으면 
 div를 감쌀 수 있는 것이 필요하기 때문
 
 
+
+----------헤더파일------------------
 POST http://office.pyunhan.co.kr/Cache/CacheService/addImages HTTP/1.1
 User-Agent: Mozilla/5.0
 Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
