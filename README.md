@@ -45,3 +45,5 @@ Content-Type: image/jpeg
 
 (Binary data byte[] in hear)
 --a1234567890-- //--가 두개 붙으면 여기가 끝이다 이건 3개의 파트로 구성
+
+ this.Contents=response.users;
