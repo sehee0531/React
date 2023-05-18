@@ -1,4 +1,4 @@
-# React
+# React (ㄹㅣㅇㅐㄱㅌㅡ)
 노드프로젝트 생성해주는 명령어 ( 처음 만들 때는 오래걸림 )> npx create-react-app .
 
 npm start 후 http://localhost:3000 > 웹 서버가 3000번으로 구동중인 것을 알 수 있음
